@@ -130,12 +130,20 @@ img {
 
 .promo__text-lion {
     position: absolute;
-    top: 333px;
-    left: 312px;
+    top: 408px;
+    left: 449px;
     transition: transform 0.3s ease-in;
 }
 
-.promo__text-lion:hover {
+.promo__text-lion-i {
+    position: absolute;
+    top: 408px;
+    left: 671px;
+    transition: transform 0.3s ease-in;
+}
+
+.promo__text-lion:hover, 
+.promo__text-lion-i:hover {
     transform: scale(0.95);
 }
 
@@ -175,7 +183,9 @@ img {
     background-image: url("/img/buttonvid1.png");
     background-repeat: no-repeat;
     background-position: center center;
+    z-index: 1;
 }
+
 
 /* BUTTON */
 .button {
